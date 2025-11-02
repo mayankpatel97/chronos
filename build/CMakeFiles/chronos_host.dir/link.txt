@@ -1,0 +1,1 @@
+/usr/bin/cc -O3 -DNDEBUG CMakeFiles/chronos_host.dir/test/main.c.o CMakeFiles/chronos_host.dir/src/sch.c.o -o chronos_host  platform/host/libplatform_host.a 

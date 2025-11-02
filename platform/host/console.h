@@ -9,6 +9,6 @@ int console_putc(char c);
 
 int console_puts(const char *s);
 
-void console_print(const char *fmt, ...);
+int console_print(const char *fmt, ...);
 
 #endif

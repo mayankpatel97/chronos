@@ -1,0 +1,2 @@
+/usr/bin/ar qc libplatform_host.a CMakeFiles/platform_host.dir/console.c.o CMakeFiles/platform_host.dir/pal.c.o
+/usr/bin/ranlib libplatform_host.a

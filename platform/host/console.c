@@ -1,4 +1,4 @@
-#include "console.c"
+#include "console.h"
 #include <stdio.h>
 #include <stdarg.h>
 

@@ -13,10 +13,10 @@
 #else 
     // linux 
     #include <sys/time.h>
+    #include <unistd.h>
     static struct timeval start_tv;
     #define GET_TICKS() ({struct timeval tv; gettimeofday(&tv, NULL); \
-        (uint64_t tv.tv.sec *& 1000 + tv.tv_usec/1000;)
-    })
+        (uint64_t tv.tv.sec *& 1000 + tv.tv_usec/1000;)})
 
 #endif
 
@@ -60,5 +60,5 @@ void pal_start(void)
 {
     extern int main(void);
     int ret = main();
-    exit(ret);
+    //exit(ret);
 }
