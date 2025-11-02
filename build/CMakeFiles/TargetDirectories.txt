@@ -1,6 +1,0 @@
-/home/mayank/Mayank/chronos/chronos/build/CMakeFiles/chronos_host.dir
-/home/mayank/Mayank/chronos/chronos/build/CMakeFiles/edit_cache.dir
-/home/mayank/Mayank/chronos/chronos/build/CMakeFiles/rebuild_cache.dir
-/home/mayank/Mayank/chronos/chronos/build/platform/host/CMakeFiles/platform_host.dir
-/home/mayank/Mayank/chronos/chronos/build/platform/host/CMakeFiles/edit_cache.dir
-/home/mayank/Mayank/chronos/chronos/build/platform/host/CMakeFiles/rebuild_cache.dir
