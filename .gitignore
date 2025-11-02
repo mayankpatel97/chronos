@@ -1,1 +1,4 @@
 /examples/stm32f4/Debug
+/examples/stm32f4/.settings
+/examples/stm32f4/stm32f4 Debug.launch
+.vscode
