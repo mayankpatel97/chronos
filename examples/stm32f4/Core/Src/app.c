@@ -1,5 +1,5 @@
 #include "main.h"
-#include "../../../../chronos.h"
+#include "chronos.h"
 
 
 static void blink(void *arg) {
@@ -16,9 +16,9 @@ static void blink2(void *arg) {
 void app(void)
 {
 	/* Run blink every 500 ms, start after 0 ms */
-	chronos_add(blink, NULL, 100, 0);
+	chronos_add(blink, NULL, 1000, 0);
 
-	chronos_add(blink2, NULL, 500, 50);
+	chronos_add(blink2, NULL, 1000, 50);
 
 	/* Hand control to cooperative dispatcher (never returns) */
 	chronos_run();

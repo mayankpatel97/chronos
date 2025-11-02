@@ -1,4 +1,4 @@
-#include "chronos.h"
+#include "scheduler.h"
 #include "main.h"   // for __WFI() and core definitions
 #include <string.h>
 
